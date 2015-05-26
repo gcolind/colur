@@ -19,11 +19,11 @@ if ( ! function_exists( 'storefront_product_categories' ) ) {
 		if ( is_woocommerce_activated() ) {
 
 			$args = apply_filters( 'storefront_product_categories_args', array(
-				'limit' 			=> 3,
+				'limit' 			=> 6,
 				'columns' 			=> 3,
 				'child_categories' 	=> 0,
 				'orderby' 			=> 'name',
-				'title'				=> __( 'Product Categories', 'storefront' ),
+				'title'				=> __( 'Browse by Color', 'storefront' ),
 				) );
 
 			echo '<section class="storefront-product-section storefront-product-categories">';
@@ -89,7 +89,7 @@ if ( ! function_exists( 'storefront_featured_products' ) ) {
 				'columns' 			=> 4,
 				'orderby'			=> 'date',
 				'order'				=> 'desc',
-				'title'				=> __( 'Featured Products', 'storefront' ),
+				'title'				=> __( 'Featured', 'storefront' ),
 				) );
 
 			echo '<section class="storefront-product-section storefront-featured-products">';

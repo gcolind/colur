@@ -31,6 +31,27 @@ a:focus {
   outline: none;
   }
 
+.hentry .entry-header{
+  border-bottom:none;
+}
+
+.hentry{
+  border-bottom: none;
+}
+
+.storefront-product-section .section-title{
+  font-size:3em;
+  font-weight: bold;
+}
+
+.storefront-product-section{
+  border-bottom: none !important;
+}
+
+blockquote{
+  font-size: 1.25em;
+}
+
 /* Site Header Styles */
 .site-title a{
   font-family: 'Damion', cursive;
@@ -48,4 +69,13 @@ a:focus {
 /* General Styles */
 .entry-header{
   text-align:center;
+}
+
+/* Product Category Styles */
+ul.products li.product.product-category img{
+  border-radius: 2px;
+}
+
+ul.products li.product h3{
+  display:none;
 }
