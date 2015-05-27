@@ -79,15 +79,3 @@ ul.products li.product.product-category img{
 ul.products li.product h3{
   display:none;
 }
-
-
-/* Header homepage text */
-.widget h3.widget-title{
-  border-bottom: none;
-  font-size:2em;
-  margin-bottom: 0;
-}
-
-.header-widget-region .widget{
-  font-size:1.75em;
-}

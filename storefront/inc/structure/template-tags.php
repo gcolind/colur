@@ -89,7 +89,7 @@ if ( ! function_exists( 'storefront_featured_products' ) ) {
 				'columns' 			=> 4,
 				'orderby'			=> 'date',
 				'order'				=> 'desc',
-				'title'				=> __( 'Featured', 'storefront' ),
+				'title'				=> __( 'Featured Products', 'storefront' ),
 				) );
 
 			echo '<section class="storefront-product-section storefront-featured-products">';
